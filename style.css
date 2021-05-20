@@ -98,23 +98,38 @@ nav img {
 }
 
 .header h1 {
-  margin-top: 4rem;
+  margin-top: 2rem;
   font-size: 10rem;
   font-family: "Medhurst", serif;
 }
 
 .header h2 {
-  font-size: 4rem;
+  margin-top: 2rem;
+  font-size: 3.5rem;
   color: #a08a70;
   font-family: "Medhurst", serif;
 }
 
 #view-project-btn {
-  display: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translate(35%, 80%);
+}
+
+#view-project-btn img {
+  width: 25%;
+}
+
+#view-project-btn h4 {
+  transform: translateX(122%);
+  font-size: 1.25rem;
+  letter-spacing: 0.15rem;
 }
 
 .home-img {
-  margin: auto;
+  margin-top: 12rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,4 +139,24 @@ nav img {
 .home-img img {
   width: 50%;
   height: 50%;
+}
+
+.img-desc {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.title {
+  text-align: left;
+  width: 50%;
+  font-size: 1.25rem;
+}
+.par {
+  text-align: justify;
+  width: 50%;
+  font-size: 1.25rem;
+  text-indent: 5rem;
+  color: rgba(46, 46, 46, 0.884);
+  line-height: 150%;
 }
