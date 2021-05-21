@@ -59,7 +59,7 @@ nav img {
 .full-page {
   width: 90%;
   margin: auto;
-  height: 100vh;
+  height: 140vh;
 }
 
 /* Nav seperator lines */
@@ -159,4 +159,30 @@ nav img {
   text-indent: 5rem;
   color: rgba(46, 46, 46, 0.884);
   line-height: 150%;
+}
+
+aside {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 60%;
+  left: 10%;
+}
+
+aside ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+aside ul a {
+  margin: 0.5rem 0rem;
+  font-size: 1.25rem;
+}
+
+.bottom-spacer {
+  margin-top: 5rem;
 }
