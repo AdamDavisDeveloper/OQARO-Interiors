@@ -188,3 +188,38 @@ aside ul a {
 .bottom-spacer {
   margin-top: 5rem;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1153px) {
+  html {
+    font-size: 58%;
+  }
+  #view-project-btn img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1072px) {
+  html {
+    font-size: 52%;
+  }
+  #view-project-btn {
+    left: 57%;
+  }
+  #view-project-btn img {
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 977px) {
+  html {
+    font-size: 48%;
+  }
+  #view-project-btn {
+    left: 56%;
+  }
+  #view-project-btn img {
+    width: 32%;
+  }
+}
