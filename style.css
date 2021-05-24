@@ -223,3 +223,21 @@ aside ul a {
     width: 32%;
   }
 }
+
+@media screen and (max-width: 885px) {
+  html {
+    font-size: 40%;
+  }
+  .header h2 {
+    margin-top: 0rem;
+  }
+  .header h1 {
+    margin-top: 0rem;
+  }
+  #view-project-btn {
+    left: 56%;
+  }
+  #view-project-btn img {
+    width: 32%;
+  }
+}
