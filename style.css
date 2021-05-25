@@ -59,6 +59,7 @@ nav img {
 .full-page {
   width: 90%;
   margin: auto;
+  /* Change to 100vh or less for mobile views */
   height: 140vh;
 }
 
