@@ -248,3 +248,9 @@ aside ul a {
     font-size: 30%;
   }
 }
+
+@media screen and (max-width: 553px) {
+  html {
+    font-size: 25%;
+  }
+}
